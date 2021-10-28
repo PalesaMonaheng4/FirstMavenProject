@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected ----------------Almost passed]]>
+    </line>
+    <line>
+      <![CDATA[actual--------------------Test passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-10-28T11:39:14 SAST" name="Suite" finished-at="2021-10-28T11:39:14 SAST" duration-ms="537">
+    <groups>
+      <group name="Regression">
+        <method signature="HomeLoans.homeLoanFraud()[pri:0, instance:Loans.HomeLoans@3a3e78f]" name="homeLoanFraud" class="Loans.HomeLoans"/>
+        <method signature="Homeloans2.fourthTest()[pri:0, instance:Loans.Homeloans2@3243b914]" name="fourthTest" class="Loans.Homeloans2"/>
+        <method signature="Homeloans2.propertFraud()[pri:0, instance:Loans.Homeloans2@3243b914]" name="propertFraud" class="Loans.Homeloans2"/>
+        <method signature="PersonalLoans.personalLoanFraud()[pri:0, instance:Loans.PersonalLoans@3300f4fd]" name="personalLoanFraud" class="Loans.PersonalLoans"/>
+        <method signature="PersonalLoans2.personalLoanFraud()[pri:0, instance:Loans.PersonalLoans2@ebb6851]" name="personalLoanFraud" class="Loans.PersonalLoans2"/>
+        <method signature="VehicleLoans.vehicleLoanFraud()[pri:0, instance:Loans.VehicleLoans@49872d67]" name="vehicleLoanFraud" class="Loans.VehicleLoans"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="HomeLoans.firstTest()[pri:0, instance:Loans.HomeLoans@3a3e78f]" name="firstTest" class="Loans.HomeLoans"/>
+        <method signature="HomeLoans.secondTest()[pri:0, instance:Loans.HomeLoans@3a3e78f]" name="secondTest" class="Loans.HomeLoans"/>
+        <method signature="Homeloans2.home2LoanFraud()[pri:0, instance:Loans.Homeloans2@3243b914]" name="home2LoanFraud" class="Loans.Homeloans2"/>
+        <method signature="Homeloans2.thirdTest()[pri:0, instance:Loans.Homeloans2@3243b914]" name="thirdTest" class="Loans.Homeloans2"/>
+        <method signature="PersonalLoans.fiveTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd]" name="fiveTest" class="Loans.PersonalLoans"/>
+        <method signature="PersonalLoans.sixTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd]" name="sixTest" class="Loans.PersonalLoans"/>
+        <method signature="PersonalLoans2.fiveTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851]" name="fiveTest" class="Loans.PersonalLoans2"/>
+        <method signature="PersonalLoans2.sixTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851]" name="sixTest" class="Loans.PersonalLoans2"/>
+        <method signature="VehicleLoans.nineTest()[pri:0, instance:Loans.VehicleLoans@49872d67]" name="nineTest" class="Loans.VehicleLoans"/>
+        <method signature="VehicleLoans.tenTest()[pri:0, instance:Loans.VehicleLoans@49872d67]" name="tenTest" class="Loans.VehicleLoans"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-10-28T11:39:14 SAST" name="Home Loans" finished-at="2021-10-28T11:39:14 SAST" duration-ms="243">
+      <class name="Loans.Homeloans2">
+        <test-method signature="fourthTest()[pri:0, instance:Loans.Homeloans2@3243b914]" started-at="2021-10-28T11:39:14 SAST" name="fourthTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method signature="home2LoanFraud()[pri:0, instance:Loans.Homeloans2@3243b914]" started-at="2021-10-28T11:39:14 SAST" name="home2LoanFraud" finished-at="2021-10-28T11:39:14 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home2LoanFraud -->
+        <test-method signature="propertFraud()[pri:0, instance:Loans.Homeloans2@3243b914]" started-at="2021-10-28T11:39:14 SAST" name="propertFraud" finished-at="2021-10-28T11:39:14 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertFraud -->
+        <test-method signature="thirdTest()[pri:0, instance:Loans.Homeloans2@3243b914]" started-at="2021-10-28T11:39:14 SAST" name="thirdTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected ----------------Almost passed]]>
+            </line>
+            <line>
+              <![CDATA[actual--------------------Test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+      </class> <!-- Loans.Homeloans2 -->
+      <class name="Loans.HomeLoans">
+        <test-method signature="firstTest()[pri:0, instance:Loans.HomeLoans@3a3e78f]" started-at="2021-10-28T11:39:14 SAST" name="firstTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method signature="homeLoanFraud()[pri:0, instance:Loans.HomeLoans@3a3e78f]" started-at="2021-10-28T11:39:14 SAST" name="homeLoanFraud" finished-at="2021-10-28T11:39:14 SAST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at Loans.HomeLoans.homeLoanFraud(HomeLoans.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanFraud -->
+        <test-method signature="secondTest()[pri:0, instance:Loans.HomeLoans@3a3e78f]" started-at="2021-10-28T11:39:14 SAST" name="secondTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- Loans.HomeLoans -->
+    </test> <!-- Home Loans -->
+    <test started-at="2021-10-28T11:39:14 SAST" name="Personal Loans" finished-at="2021-10-28T11:39:14 SAST" duration-ms="17">
+      <class name="Loans.PersonalLoans2">
+        <test-method signature="fiveTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851]" started-at="2021-10-28T11:39:14 SAST" name="fiveTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fiveTest -->
+        <test-method signature="personalLoanFraud()[pri:0, instance:Loans.PersonalLoans2@ebb6851]" started-at="2021-10-28T11:39:14 SAST" name="personalLoanFraud" finished-at="2021-10-28T11:39:14 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanFraud -->
+        <test-method signature="sixTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851]" started-at="2021-10-28T11:39:14 SAST" name="sixTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sixTest -->
+      </class> <!-- Loans.PersonalLoans2 -->
+      <class name="Loans.PersonalLoans">
+        <test-method signature="personalLoanFraud()[pri:0, instance:Loans.PersonalLoans@3300f4fd]" started-at="2021-10-28T11:39:14 SAST" name="personalLoanFraud" finished-at="2021-10-28T11:39:14 SAST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalLoanFraud -->
+        <test-method signature="fiveTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd]" started-at="2021-10-28T11:39:14 SAST" name="fiveTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fiveTest -->
+        <test-method signature="sixTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd]" started-at="2021-10-28T11:39:14 SAST" name="sixTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sixTest -->
+      </class> <!-- Loans.PersonalLoans -->
+    </test> <!-- Personal Loans -->
+    <test started-at="2021-10-28T11:39:14 SAST" name="Vehicle Loans" finished-at="2021-10-28T11:39:14 SAST" duration-ms="17">
+      <class name="Loans.VehicleLoans">
+        <test-method signature="nineTest()[pri:0, instance:Loans.VehicleLoans@49872d67]" started-at="2021-10-28T11:39:14 SAST" name="nineTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nineTest -->
+        <test-method signature="tenTest()[pri:0, instance:Loans.VehicleLoans@49872d67]" started-at="2021-10-28T11:39:14 SAST" name="tenTest" finished-at="2021-10-28T11:39:14 SAST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenTest -->
+        <test-method signature="vehicleLoanFraud()[pri:0, instance:Loans.VehicleLoans@49872d67]" started-at="2021-10-28T11:39:14 SAST" name="vehicleLoanFraud" finished-at="2021-10-28T11:39:14 SAST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicleLoanFraud -->
+      </class> <!-- Loans.VehicleLoans -->
+    </test> <!-- Vehicle Loans -->
+  </suite> <!-- Suite -->
+</testng-results>

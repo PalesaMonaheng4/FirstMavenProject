@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.037" tests="16" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\PMonaheng\Desktop\selenium tools\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\PMonaheng\IdeaProjects\MavenProject\target\test-classes;C:\Users\PMonaheng\IdeaProjects\MavenProject\target\classes;C:\Users\PMonaheng\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\PMonaheng\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\PMonaheng\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\PMonaheng\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\PMonaheng\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\PMonaheng\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\PMonaheng\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\PMonaheng\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\PMonaheng\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\PMonaheng\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\PMonaheng\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\PMonaheng\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ZA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\PMonaheng\AppData\Local\Temp\surefire7643392489943056386\surefirebooter8924527035673625173.jar C:\Users\PMonaheng\AppData\Local\Temp\surefire7643392489943056386 2021-10-28T11-38-52_750-jvmRun1 surefire5786911566977269162tmp surefire_06478200619996941067tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\PMonaheng\IdeaProjects\MavenProject\target\test-classes;C:\Users\PMonaheng\IdeaProjects\MavenProject\target\classes;C:\Users\PMonaheng\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\PMonaheng\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\PMonaheng\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\PMonaheng\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\PMonaheng\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\PMonaheng\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\PMonaheng\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\PMonaheng\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\PMonaheng\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\PMonaheng\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\PMonaheng\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\PMonaheng\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\PMonaheng\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\PMonaheng"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\PMonaheng\IdeaProjects\MavenProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\PMonaheng\AppData\Local\Temp\surefire7643392489943056386\surefirebooter8924527035673625173.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="PMonaheng"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\PMonaheng\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PMONAH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\PMonaheng\IdeaProjects\MavenProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;&quot;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-16.0.1\bin&quot;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\PMonaheng\AppData\Local\Android\Sdk\tools\bin;C:\Users\PMonaheng\AppData\Local\Android\Sdk\tools;C:\Users\PMonaheng\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files (x86)\apache-maven-3.8.3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="firstTest" classname="Loans.HomeLoans" time="0.006">
+    <system-out><![CDATA[On start org.testng.TestRunner@4c550889
+On test start [TestResult name=firstTest status=STARTED method=HomeLoans.firstTest()[pri:0, instance:Loans.HomeLoans@3a3e78f] output={null}]
+First Home Loans
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 31170
+Only local connections are allowed.
+Oct 28, 2021 11:39:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="homeLoanFraud" classname="Loans.HomeLoans" time="0.003">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at Loans.HomeLoans.homeLoanFraud(HomeLoans.java:21)
+]]></failure>
+    <system-out><![CDATA[On test success [TestResult name=firstTest status=SUCCESS method=HomeLoans.firstTest()[pri:0, instance:Loans.HomeLoans@3a3e78f] output={null}]
+On test start [TestResult name=homeLoanFraud status=STARTED method=HomeLoans.homeLoanFraud()[pri:0, instance:Loans.HomeLoans@3a3e78f] output={null}]
+Fraud Home Loans
+]]></system-out>
+  </testcase>
+  <testcase name="secondTest" classname="Loans.HomeLoans" time="0.005">
+    <system-out><![CDATA[On test failure [TestResult name=homeLoanFraud status=FAILURE method=HomeLoans.homeLoanFraud()[pri:0, instance:Loans.HomeLoans@3a3e78f] output={null}]
+On test start [TestResult name=secondTest status=STARTED method=HomeLoans.secondTest()[pri:0, instance:Loans.HomeLoans@3a3e78f] output={null}]
+Second Home Loans
+]]></system-out>
+  </testcase>
+  <testcase name="fourthTest" classname="Loans.Homeloans2" time="0.003">
+    <system-out><![CDATA[On test success [TestResult name=secondTest status=SUCCESS method=HomeLoans.secondTest()[pri:0, instance:Loans.HomeLoans@3a3e78f] output={null}]
+On test start [TestResult name=fourthTest status=STARTED method=Homeloans2.fourthTest()[pri:0, instance:Loans.Homeloans2@3243b914] output={null}]
+Fourth Home Loans
+]]></system-out>
+  </testcase>
+  <testcase name="home2LoanFraud" classname="Loans.Homeloans2" time="0.005">
+    <system-out><![CDATA[On test success [TestResult name=fourthTest status=SUCCESS method=Homeloans2.fourthTest()[pri:0, instance:Loans.Homeloans2@3243b914] output={null}]
+On test start [TestResult name=home2LoanFraud status=STARTED method=Homeloans2.home2LoanFraud()[pri:0, instance:Loans.Homeloans2@3243b914] output={null}]
+Fraud Home2 Loans
+]]></system-out>
+  </testcase>
+  <testcase name="propertFraud" classname="Loans.Homeloans2" time="0.003">
+    <system-out><![CDATA[On test success [TestResult name=home2LoanFraud status=SUCCESS method=Homeloans2.home2LoanFraud()[pri:0, instance:Loans.Homeloans2@3243b914] output={null}]
+On test start [TestResult name=propertFraud status=STARTED method=Homeloans2.propertFraud()[pri:0, instance:Loans.Homeloans2@3243b914] output={null}]
+Fraud property Loans
+]]></system-out>
+  </testcase>
+  <testcase name="thirdTest" classname="Loans.Homeloans2" time="0.007">
+    <system-out><![CDATA[On test success [TestResult name=propertFraud status=SUCCESS method=Homeloans2.propertFraud()[pri:0, instance:Loans.Homeloans2@3243b914] output={null}]
+On test start [TestResult name=thirdTest status=STARTED method=Homeloans2.thirdTest()[pri:0, instance:Loans.Homeloans2@3243b914] output={null}]
+Third Home Loans
+]]></system-out>
+  </testcase>
+  <testcase name="fiveTest" classname="Loans.PersonalLoans" time="0.005">
+    <system-out><![CDATA[On test success [TestResult name=thirdTest status=SUCCESS method=Homeloans2.thirdTest()[pri:0, instance:Loans.Homeloans2@3243b914] output=Expected ----------------Almost passed]
+On Finish org.testng.TestRunner@4c550889
+On start org.testng.TestRunner@665df3c6
+On test start [TestResult name=fiveTest status=STARTED method=PersonalLoans.fiveTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd] output={null}]
+Fifth Personal Loans
+]]></system-out>
+  </testcase>
+  <testcase name="personalLoanFraud" classname="Loans.PersonalLoans" time="0.003">
+    <system-out><![CDATA[On test success [TestResult name=fiveTest status=SUCCESS method=PersonalLoans.fiveTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd] output={null}]
+On test start [TestResult name=personalLoanFraud status=STARTED method=PersonalLoans.personalLoanFraud()[pri:0, instance:Loans.PersonalLoans@3300f4fd] output={null}]
+Fraud Personal Loans
+]]></system-out>
+  </testcase>
+  <testcase name="sixTest" classname="Loans.PersonalLoans" time="0.003">
+    <system-out><![CDATA[On test success [TestResult name=personalLoanFraud status=SUCCESS method=PersonalLoans.personalLoanFraud()[pri:0, instance:Loans.PersonalLoans@3300f4fd] output={null}]
+On test start [TestResult name=sixTest status=STARTED method=PersonalLoans.sixTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd] output={null}]
+Sixth Personal Loans
+]]></system-out>
+  </testcase>
+  <testcase name="fiveTest" classname="Loans.PersonalLoans2" time="0.003">
+    <system-out><![CDATA[On test success [TestResult name=sixTest status=SUCCESS method=PersonalLoans.sixTest()[pri:0, instance:Loans.PersonalLoans@3300f4fd] output={null}]
+On test start [TestResult name=fiveTest status=STARTED method=PersonalLoans2.fiveTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851] output={null}]
+Fifth Personal Loans
+]]></system-out>
+  </testcase>
+  <testcase name="personalLoanFraud" classname="Loans.PersonalLoans2" time="0.005">
+    <system-out><![CDATA[On test success [TestResult name=fiveTest status=SUCCESS method=PersonalLoans2.fiveTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851] output={null}]
+On test start [TestResult name=personalLoanFraud status=STARTED method=PersonalLoans2.personalLoanFraud()[pri:0, instance:Loans.PersonalLoans2@ebb6851] output={null}]
+Fraud Personal Loans
+]]></system-out>
+  </testcase>
+  <testcase name="sixTest" classname="Loans.PersonalLoans2" time="0.002">
+    <system-out><![CDATA[On test success [TestResult name=personalLoanFraud status=SUCCESS method=PersonalLoans2.personalLoanFraud()[pri:0, instance:Loans.PersonalLoans2@ebb6851] output={null}]
+On test start [TestResult name=sixTest status=STARTED method=PersonalLoans2.sixTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851] output={null}]
+Sixth Personal Loans
+]]></system-out>
+  </testcase>
+  <testcase name="nineTest" classname="Loans.VehicleLoans" time="0.003">
+    <system-out><![CDATA[On test success [TestResult name=sixTest status=SUCCESS method=PersonalLoans2.sixTest()[pri:0, instance:Loans.PersonalLoans2@ebb6851] output={null}]
+On Finish org.testng.TestRunner@665df3c6
+On start org.testng.TestRunner@3f792b9b
+On test start [TestResult name=nineTest status=STARTED method=VehicleLoans.nineTest()[pri:0, instance:Loans.VehicleLoans@49872d67] output={null}]
+Nineth Vehicle Loans
+]]></system-out>
+  </testcase>
+  <testcase name="tenTest" classname="Loans.VehicleLoans" time="0.005">
+    <system-out><![CDATA[On test success [TestResult name=nineTest status=SUCCESS method=VehicleLoans.nineTest()[pri:0, instance:Loans.VehicleLoans@49872d67] output={null}]
+On test start [TestResult name=tenTest status=STARTED method=VehicleLoans.tenTest()[pri:0, instance:Loans.VehicleLoans@49872d67] output={null}]
+Tenth vehicle Loans
+]]></system-out>
+  </testcase>
+  <testcase name="vehicleLoanFraud" classname="Loans.VehicleLoans" time="0.003">
+    <system-out><![CDATA[On test success [TestResult name=tenTest status=SUCCESS method=VehicleLoans.tenTest()[pri:0, instance:Loans.VehicleLoans@49872d67] output={null}]
+On test start [TestResult name=vehicleLoanFraud status=STARTED method=VehicleLoans.vehicleLoanFraud()[pri:0, instance:Loans.VehicleLoans@49872d67] output={null}]
+Fraud vehicle Loans
+]]></system-out>
+  </testcase>
+</testsuite>
