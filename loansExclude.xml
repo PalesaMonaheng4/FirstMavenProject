@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <!--Exclude the named method in that class-->
+    <test thread-count="5" name="Home Loans">
+        <classes>
+            <class name="Loans.HomeLoans"/>
+            <class name="Loans.Homeloans2"/>
+        </classes>
+    </test> <!-- Test -->
+    <test thread-count="5" name="Personal Loans">
+        <classes>
+            <class name="Loans.PersonalLoans"/>
+            <class name="Loans.PersonalLoans2"/>
+        </classes>
+    </test> <!-- Test -->
+    <test thread-count="5" name="Vehicle Loans">
+        <classes>
+            <class name="Loans.VehicleLoans">
+                <methods>
+                    <exclude name="nineTest"/>
+                </methods>
+                <methods>
+                    <include name="nineTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loans Test Suite">
+    <!--Naming Convention is important in this regard-->
+    <test thread-count="5" name="Home Loans">
+        <parameter name="URL" value="www.takealot.co.za"></parameter>
+        <classes>
+            <class name="Loans.ParameterValues"/>
+        </classes>
+        <!--   <packages>
+               <package name="Palesa"></package>
+           </packages>-->
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
